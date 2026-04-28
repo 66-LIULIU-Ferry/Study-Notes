@@ -29,5 +29,5 @@ __pycache__/
 .env
 .env.*
 
-# NOTE:
-# Do NOT add Interview/ here if you want it synced to GitHub.
+# --- Local-only content ---
+Interview/
