@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股文/Redis.md",
+                "file": "LeetCode/动态规划/3840. 打家劫舍 V.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "3840. 打家劫舍 V"
             }
           }
         ],
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 338.5
   },
   "right": {
     "id": "ee3cc914ca3b8e9c",
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股文/Redis.md",
+                "file": "LeetCode/动态规划/3840. 打家劫舍 V.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Redis 的大纲"
+              "title": "3840. 打家劫舍 V 的大纲"
             }
           }
         ],
@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,22 +201,34 @@
   },
   "active": "3187a4245986c64a",
   "lastOpenFiles": [
-    "八股文/多线程.md",
+    "LeetCode/动态规划/2560. 打家劫舍 IV.md",
+    "LeetCode/动态规划/337. 打家劫舍 III.md",
+    "LeetCode/动态规划/3840. 打家劫舍 V.md",
+    "LeetCode/动态规划/213. 打家劫舍 II.md",
+    "LeetCode/动态规划/198. 打家劫舍.md",
+    "LeetCode/多线程/多线程交替打印数字.md",
+    "LeetCode/动态规划/62. 不同路径.md",
+    "LeetCode/动态规划/70. 爬楼梯.md",
+    "LeetCode/动态规划/斐波那契数.md",
+    "LeetCode/动态规划/爬楼梯.md",
+    "八股文/MySQL.md",
     "八股文/Redis.md",
+    "Interview/中文简历/简历_刘入菲_2027应届.pdf",
+    "Interview/实习经历深挖.md",
+    "Interview/中文简历/简历_应届.docx",
+    "Interview/HR面.md",
+    "Interview/中文简历/刘入菲_简历.pdf",
+    "面经/字节Tiktok Shop后端开发面经.md",
+    "八股文/消息中间件.md",
+    "八股文/多线程.md",
+    "LeetCode/取模.md",
     "八股文/思维导图/Redis.xmind",
     "八股文/思维导图/MySQL.xmind",
-    "面经/字节Tiktok Shop后端开发面经.md",
-    "八股文/MySQL.md",
-    "Interview/实习经历深挖.md",
     "八股文/思维导图/redis.xmind.baiduyun.p.downloading",
-    "Interview/中文简历/简历_刘入菲_2027应届.pdf",
-    "Interview/HR面.md",
-    "Interview/中文简历/简历_应届.docx",
     "Python.md",
     "Linux.md",
     "Java.md",
     "AI Agent.md",
-    "Interview/中文简历/刘入菲_简历.pdf",
     "Interview/中文简历/简历.docx",
     "Interview/中文简历/领英证件照.png",
     "Interview/中文简历",
@@ -231,17 +243,6 @@
     "八股文/JVM.md",
     "八股文/img/Pasted image 20260419193935.png",
     "2026-04-27.md",
-    "八股文/未命名.md",
-    "八股文/计算机网络.md",
-    "八股文/算法 & 数据结构.md",
-    "LeetCode/动态规划/爬楼梯.md",
-    "LeetCode/动态规划/斐波那契数.md",
-    "LeetCode/动态规划/70. 爬楼梯.md",
-    "LeetCode/动态规划/62. 不同路径.md",
-    "LeetCode/多线程/多线程交替打印数字.md",
-    "LeetCode/多线程.md",
-    "Web开发基础.md",
-    "LeetCode/Hot100.md",
     "未命名.canvas",
     "八股文/img/截屏2026-04-21 15.08.33.png",
     "八股文/img/截屏2026-04-21 15.44.58.png",
