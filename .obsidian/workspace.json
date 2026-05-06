@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股文/Redis.md",
+                "file": "LeetCode/二叉树/理论基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "理论基础"
             }
           }
         ],
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股文/Redis.md",
+                "file": "LeetCode/二叉树/理论基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Redis 的大纲"
+              "title": "理论基础 的大纲"
             }
           }
         ],
@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,51 +203,52 @@
   },
   "active": "3187a4245986c64a",
   "lastOpenFiles": [
-    "八股文/MySQL.md",
-    "八股文/Redis.md",
-    "LeetCode/动态规划/213. 打家劫舍 II.md",
-    "LeetCode/动态规划/337. 打家劫舍 III.md",
-    "面经/字节Tiktok Shop后端开发面经.md",
-    "LeetCode/动态规划/198. 打家劫舍.md",
-    "LeetCode/动态规划/70. 爬楼梯.md",
-    "LeetCode/动态规划/3840. 打家劫舍 V.md",
-    "申研/CV/RufeiLIU-CV.pages",
-    "申研/CV/~$feiLIU-CV-1.docx",
-    "申研/CV/~$feiLIU-CV(word).docx",
-    "申研/CV/~$feiLIU-CV.docx",
-    "申研/CV/RufeiLIU-CV(word).docx",
-    "申研/CV/RufeiLIU-CV.pdf",
-    "申研/CV",
-    "申研/推荐信/Reference.pdf",
-    "申研/推荐信/RL for Prof He.docx",
-    "申研/推荐信/研究生-推荐信素材收集表.docx",
-    "申研/证件/成绩单图片/Page_1_docsmall.com.jpg",
-    "申研/证件/成绩单图片/Page_2_docsmall.com.jpg",
-    "申研/证件/身份证反面.jpg",
-    "申研/证件/身份证正面.jpg",
-    "申研/证件/学位证书.jpg",
-    "申研/证件/高中毕业证书.jpeg",
-    "申研/证件/两寸证件照.jpg",
-    "申研/证件/学考成绩证明.png",
-    "申研/签证申请/存款证明2.jpg",
-    "申研/签证申请/存款证明1.jpg",
-    "LeetCode/动态规划/2560. 打家劫舍 IV.md",
-    "LeetCode/多线程/多线程交替打印数字.md",
-    "LeetCode/动态规划/62. 不同路径.md",
     "LeetCode/动态规划/斐波那契数.md",
-    "LeetCode/动态规划/爬楼梯.md",
-    "Interview/实习经历深挖.md",
-    "Interview/HR面.md",
-    "八股文/消息中间件.md",
-    "八股文/多线程.md",
+    "LeetCode/二叉树/理论基础.md",
     "LeetCode/取模.md",
+    "LeetCode/动态规划/213. 打家劫舍 II.md",
+    "LeetCode/Hot100.md",
+    "LeetCode/二叉树",
+    "LeetCode/动态规划/337. 打家劫舍 III.md",
+    "LeetCode/动态规划/2560. 打家劫舍 IV.md",
+    "LeetCode/动态规划/3840. 打家劫舍 V.md",
+    "八股文/Redis.md",
+    "面经/字节Tiktok Shop后端开发面经.md",
+    "八股文/JVM.md",
+    "八股文/Git.md",
+    "八股文/计算机网络.md",
+    "八股文/多线程.md",
+    "数据结构/算法 & 数据结构.md",
+    "八股文/MySQL.md",
+    "LeetCode/动态规划/198. 打家劫舍.md",
+    "八股文/思维导图/Redis.xmind",
+    "八股文/思维导图/MySQL.xmind",
+    "Interview/实习经历深挖.md",
+    "八股文/思维导图/redis.xmind.baiduyun.p.downloading",
+    "Interview/中文简历/简历_刘入菲_2027应届.pdf",
+    "Interview/HR面.md",
+    "Interview/中文简历/简历_应届.docx",
     "Python.md",
     "Linux.md",
     "Java.md",
     "AI Agent.md",
+    "Interview/中文简历/刘入菲_简历.pdf",
+    "Interview/中文简历/简历.docx",
+    "Interview/中文简历/领英证件照.png",
+    "Interview/中文简历",
+    "八股文/img/Pasted image 20260428204224.png",
+    "八股文/img/Pasted image 20260428215834.png",
+    "八股文/img/Pasted image 20260428213240.png",
+    "八股文/img/Pasted image 20260428213215.png",
     "数据结构/红黑树.md",
-    "八股文/Git.md",
-    "八股文/JVM.md",
-    "未命名.canvas"
+    "数据结构",
+    "八股文/img/Pasted image 20260419193935.png",
+    "2026-04-27.md",
+    "八股文/未命名.md",
+    "未命名.canvas",
+    "八股文/img/截屏2026-04-21 15.08.33.png",
+    "八股文/img/截屏2026-04-21 15.44.58.png",
+    "八股文/img/截屏2026-04-21 15.38.06.png",
+    "截屏2026-04-21 15.33.28.png"
   ]
 }
