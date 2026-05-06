@@ -31,3 +31,4 @@ __pycache__/
 
 # --- Local-only content ---
 Interview/
+.trash/
