@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/二叉树/543. 二叉树的直径.md",
+                "file": "AI Agent/RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "543. 二叉树的直径"
+              "title": "RAG"
             }
           }
         ]
@@ -187,10 +187,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3187a4245986c64a",
+  "active": "2687f242bcdce0dd",
   "lastOpenFiles": [
-    "LeetCode/二叉树/101. 对称二叉树.md",
+    "AI Agent/img/截屏2026-05-08 17.36.44.png",
+    "面经/字节求职攻略书.md",
+    "AI Agent/img/截屏2026-05-08 16.20.01.png",
+    "未命名",
+    "AI Agent/RAG.md",
+    "AI Agent/img",
+    "AI Agent/LLM基础.md",
+    "AI Agent/基础概念.md",
+    "AI Agent/Prompt Engineering.md",
+    "AI Agent/Agent设计.md",
+    "AI Agent/AI Agent.md",
+    "AI Agent/学习路径.md",
+    "ai_agent_study_plan.html",
     "LeetCode/二叉树/543. 二叉树的直径.md",
+    "LeetCode/二叉树/101. 对称二叉树.md",
     "LeetCode/二叉树/94. 二叉树的中序遍历.md",
     "LeetCode/二叉树/104. 二叉树的最大深度.md",
     "LeetCode/二叉树/144. 二叉树的前序遍历.md",
@@ -199,9 +212,7 @@
     "八股文/MySQL.md",
     "八股文/Python.md",
     "八股文/Java.md",
-    "AI Agent/AI Agent.md",
     "Linux.md",
-    "AI Agent/基础概念.md",
     "LeetCode/img",
     "LeetCode/img/Pasted image 20260507003440.png",
     "LeetCode/动态规划/2560. 打家劫舍 IV.md",
@@ -210,20 +221,12 @@
     "面经/字节Tiktok Shop后端开发面经.md",
     "LeetCode/多线程/多线程交替打印数字.md",
     "八股文/Redis.md",
-    "数据结构/算法 & 数据结构.md",
     "LeetCode/二叉树",
-    "LeetCode/动态规划/213. 打家劫舍 II.md",
-    "LeetCode/动态规划/337. 打家劫舍 III.md",
-    "LeetCode/动态规划/198. 打家劫舍.md",
-    "LeetCode/动态规划/70. 爬楼梯.md",
     "申研/CV/RufeiLIU-CV.pages",
     "申研/CV/~$feiLIU-CV-1.docx",
     "申研/CV/~$feiLIU-CV(word).docx",
     "申研/CV/~$feiLIU-CV.docx",
     "申研/CV/RufeiLIU-CV(word).docx",
-    "申研/CV/RufeiLIU-CV.pdf",
-    "申研/CV",
-    "申研/推荐信/Reference.pdf",
     "申研/证件/成绩单图片/Page_1_docsmall.com.jpg",
     "申研/证件/成绩单图片/Page_2_docsmall.com.jpg",
     "申研/证件/身份证反面.jpg",
@@ -232,9 +235,6 @@
     "申研/证件/高中毕业证书.jpeg",
     "申研/证件/两寸证件照.jpg",
     "申研/证件/学考成绩证明.png",
-    "申研/签证申请/存款证明2.jpg",
-    "LeetCode/动态规划/62. 不同路径.md",
-    "LeetCode/动态规划/斐波那契数.md",
     "未命名.canvas"
   ]
 }

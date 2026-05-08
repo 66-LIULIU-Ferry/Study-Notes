@@ -1,0 +1,220 @@
+
+<style>
+.phase { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem; margin-bottom: 1rem; background: var(--color-background-primary); }
+.phase-header { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+.phase-badge { font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 20px; white-space: nowrap; }
+.phase-title { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+.phase-meta { font-size: 12px; color: var(--color-text-tertiary); margin-left: auto; white-space: nowrap; }
+.resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 8px; }
+.res-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+.res-type { font-size: 11px; color: var(--color-text-tertiary); margin-bottom: 3px; display: flex; align-items: center; gap: 4px; }
+.res-name { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 2px; }
+.res-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.4; }
+.res-link { font-size: 12px; color: var(--color-text-info); text-decoration: none; display: inline-flex; align-items: center; gap: 3px; margin-top: 4px; }
+.task-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-top: 0.5px solid var(--color-border-tertiary); }
+.task-dot { width: 6px; height: 6px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+.task-text { font-size: 13px; color: var(--color-text-secondary); line-height: 1.5; }
+.section-label { font-size: 12px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin: 0.75rem 0 0.5rem; }
+.deliverable { font-size: 13px; background: var(--color-background-info); color: var(--color-text-info); border-radius: var(--border-radius-md); padding: 6px 10px; margin-top: 8px; display: flex; align-items: center; gap: 6px; }
+</style>
+
+<h2 class="sr-only">AI Agent 求职学习计划，共四个阶段，包含高质量学习资源</h2>
+
+<div style="display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin-bottom:1.25rem;">
+  <div style="background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px; text-align:center;">
+    <div style="font-size:11px; color:var(--color-text-tertiary);">总周期</div>
+    <div style="font-size:20px; font-weight:500; color:var(--color-text-primary);">16周</div>
+  </div>
+  <div style="background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px; text-align:center;">
+    <div style="font-size:11px; color:var(--color-text-tertiary);">每周投入</div>
+    <div style="font-size:20px; font-weight:500; color:var(--color-text-primary);">15h</div>
+  </div>
+  <div style="background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px; text-align:center;">
+    <div style="font-size:11px; color:var(--color-text-tertiary);">项目数</div>
+    <div style="font-size:20px; font-weight:500; color:var(--color-text-primary);">3个</div>
+  </div>
+  <div style="background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px; text-align:center;">
+    <div style="font-size:11px; color:var(--color-text-tertiary);">目标岗位</div>
+    <div style="font-size:20px; font-weight:500; color:var(--color-text-primary);">AI Eng</div>
+  </div>
+</div>
+
+<!-- PHASE 1 -->
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge" style="background:#EEEDFE; color:#3C3489;">阶段一</span>
+    <span class="phase-title">LLM 基础 + API 上手</span>
+    <span class="phase-meta">第 1–3 周</span>
+  </div>
+  <div class="section-label">核心资源</div>
+  <div class="resource-grid">
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — ChatGPT Prompt Engineering</div>
+      <div class="res-desc">吴恩达出品，1小时搞懂 CoT / Few-shot / ReAct，免费</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — Building Systems with ChatGPT API</div>
+      <div class="res-desc">手把手用 API 构建多步骤系统，免费</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-file-text" aria-hidden="true"></i> 文档</div>
+      <div class="res-name">Anthropic Prompt Engineering Guide</div>
+      <div class="res-desc">官方提示词工程指南，业界最权威的参考文档之一</div>
+      <a class="res-link" href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank">阅读文档 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+  </div>
+  <div class="section-label">本阶段任务</div>
+  <div class="task-row"><div class="task-dot" style="background:#7F77DD;"></div><div class="task-text">完成上述两门 DeepLearning.AI 课程，动手运行每一个代码示例</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#7F77DD;"></div><div class="task-text">注册 OpenAI / Anthropic API，用 Python 写出第一个对话程序</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#7F77DD;"></div><div class="task-text">实现 Function Calling：让模型调用一个天气 API 或搜索工具</div></div>
+  <div class="deliverable"><i class="ti ti-check" aria-hidden="true"></i> 交付物：一个可以调用外部工具的 CLI 聊天机器人</div>
+</div>
+
+<!-- PHASE 2 -->
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge" style="background:#E1F5EE; color:#085041;">阶段二</span>
+    <span class="phase-title">核心框架 — LangChain / LangGraph / RAG</span>
+    <span class="phase-meta">第 4–8 周</span>
+  </div>
+  <div class="section-label">核心资源</div>
+  <div class="resource-grid">
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — LangChain for LLM Application Development</div>
+      <div class="res-desc">LangChain 最权威入门课，吴恩达 × LangChain 联合出品</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — LangChain: Chat with Your Data</div>
+      <div class="res-desc">RAG 全链路：文档加载 → Embedding → 检索 → 生成</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-file-text" aria-hidden="true"></i> 文档</div>
+      <div class="res-name">LangGraph 官方文档 + Tutorials</div>
+      <div class="res-desc">构建有状态 Agent 的首选框架，必须掌握 State / Graph / Node</div>
+      <a class="res-link" href="https://langchain-ai.github.io/langgraph/" target="_blank">阅读文档 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-brand-youtube" aria-hidden="true"></i> 视频</div>
+      <div class="res-name">Sam Witteveen — LangChain YouTube 系列</div>
+      <div class="res-desc">每期 15–30 分钟，实战向，覆盖最新 API 变化，持续更新</div>
+      <a class="res-link" href="https://www.youtube.com/@samwitteveenai" target="_blank">观看系列 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+  </div>
+  <div class="section-label">本阶段任务</div>
+  <div class="task-row"><div class="task-dot" style="background:#1D9E75;"></div><div class="task-text">用 LangChain + FAISS 搭建一个 PDF 问答系统（RAG 项目 #1）</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#1D9E75;"></div><div class="task-text">用 LangGraph 实现一个带 Memory 的多轮对话 Agent</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#1D9E75;"></div><div class="task-text">阅读 LangChain 官方 Agent Tutorials，理解 Tool Calling 机制</div></div>
+  <div class="deliverable"><i class="ti ti-check" aria-hidden="true"></i> 交付物：部署到 GitHub 的 RAG 问答系统，有 README 和演示视频</div>
+</div>
+
+<!-- PHASE 3 -->
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge" style="background:#FAECE7; color:#712B13;">阶段三</span>
+    <span class="phase-title">进阶 Agent — Multi-Agent + 系统设计</span>
+    <span class="phase-meta">第 9–13 周</span>
+  </div>
+  <div class="section-label">核心资源</div>
+  <div class="resource-grid">
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — AI Agents in LangGraph</div>
+      <div class="res-desc">系统讲解 Agentic Workflow：Reflection / Tool Use / Multi-Agent</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">DeepLearning.AI — Multi AI Agent Systems with crewAI</div>
+      <div class="res-desc">多 Agent 协作框架 CrewAI，适合做复杂任务自动化项目</div>
+      <a class="res-link" href="https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-article" aria-hidden="true"></i> 论文/博客</div>
+      <div class="res-name">Anthropic — Building Effective Agents</div>
+      <div class="res-desc">Anthropic 官方 Agent 设计指南，系统设计面试必读</div>
+      <a class="res-link" href="https://www.anthropic.com/research/building-effective-agents" target="_blank">阅读文章 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-article" aria-hidden="true"></i> 论文</div>
+      <div class="res-name">ReAct 论文 (Yao et al. 2023)</div>
+      <div class="res-desc">Agent 规划的奠基论文，面试被问到 ReAct 原理必须读过</div>
+      <a class="res-link" href="https://arxiv.org/abs/2210.03629" target="_blank">阅读论文 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-file-text" aria-hidden="true"></i> 文档</div>
+      <div class="res-name">LangSmith 官方文档</div>
+      <div class="res-desc">Agent 可观测性工具，调试和评估 Agent 必备</div>
+      <a class="res-link" href="https://docs.smith.langchain.com/" target="_blank">阅读文档 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-brand-github" aria-hidden="true"></i> 代码库</div>
+      <div class="res-name">awesome-ai-agents (GitHub)</div>
+      <div class="res-desc">最全 Agent 项目合集，找灵感、看实现、了解行业动态</div>
+      <a class="res-link" href="https://github.com/e2b-dev/awesome-ai-agents" target="_blank">查看仓库 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+  </div>
+  <div class="section-label">本阶段任务</div>
+  <div class="task-row"><div class="task-dot" style="background:#D85A30;"></div><div class="task-text">用 LangGraph 构建一个带 Reflection 的自动研究 Agent（项目 #2）</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#D85A30;"></div><div class="task-text">用 LangSmith 对 Agent 做 tracing，分析 token 消耗和延迟瓶颈</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#D85A30;"></div><div class="task-text">手写一篇系统设计文档：如何设计一个生产级 Customer Support Agent</div></div>
+  <div class="deliverable"><i class="ti ti-check" aria-hidden="true"></i> 交付物：自动研究 Agent + 系统设计文档（放简历项目区）</div>
+</div>
+
+<!-- PHASE 4 -->
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge" style="background:#E6F1FB; color:#0C447C;">阶段四</span>
+    <span class="phase-title">工程化 + 求职冲刺</span>
+    <span class="phase-meta">第 14–16 周</span>
+  </div>
+  <div class="section-label">核心资源</div>
+  <div class="resource-grid">
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-book" aria-hidden="true"></i> 课程</div>
+      <div class="res-name">Full Stack LLM Bootcamp (The Full Stack)</div>
+      <div class="res-desc">覆盖 LLMOps、部署、评估，适合想做 AI Engineer 的人</div>
+      <a class="res-link" href="https://fullstackdeeplearning.com/llm-bootcamp/" target="_blank">打开课程 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-newsletter" aria-hidden="true"></i> Newsletter</div>
+      <div class="res-name">The Batch (DeepLearning.AI)</div>
+      <div class="res-desc">每周 AI 动态，保持与行业同步，面试聊近况用</div>
+      <a class="res-link" href="https://www.deeplearning.ai/the-batch/" target="_blank">订阅 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-newsletter" aria-hidden="true"></i> Newsletter</div>
+      <div class="res-name">Lilian Weng's Blog (OpenAI)</div>
+      <div class="res-desc">Agent、RAG、Alignment 深度长文，技术面试最好的背景素材</div>
+      <a class="res-link" href="https://lilianweng.github.io/" target="_blank">阅读博客 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+    <div class="res-card">
+      <div class="res-type"><i class="ti ti-brand-github" aria-hidden="true"></i> 面试题库</div>
+      <div class="res-name">AI Engineer Interview Questions (GitHub)</div>
+      <div class="res-desc">社区整理的高频面试题，涵盖系统设计和编程题</div>
+      <a class="res-link" href="https://github.com/BerriAI/litellm" target="_blank">查看仓库 <i class="ti ti-external-link" style="font-size:11px"></i></a>
+    </div>
+  </div>
+  <div class="section-label">本阶段任务</div>
+  <div class="task-row"><div class="task-dot" style="background:#185FA5;"></div><div class="task-text">将最好的项目用 FastAPI 包装，部署到 Railway / Render，写清楚的 README</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#185FA5;"></div><div class="task-text">做 3–5 道 LLM 系统设计题的完整书面回答（模拟面试）</div></div>
+  <div class="task-row"><div class="task-dot" style="background:#185FA5;"></div><div class="task-text">在 LinkedIn 上写 1 篇技术文章，介绍你做的某个项目或踩过的坑</div></div>
+  <div class="deliverable"><i class="ti ti-check" aria-hidden="true"></i> 交付物：3 个 GitHub 项目 + 技术文章 + 更新后的简历</div>
+</div>
+
+<div style="border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-top: 0.5rem; background: var(--color-background-secondary);">
+  <div style="font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 0.5rem;">持续跟进资源（整个学习期间）</div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+    <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" style="font-size:12px; color:var(--color-text-info); text-decoration:none; display:flex; align-items:center; gap:4px;"><i class="ti ti-external-link" style="font-size:11px"></i> arXiv cs.AI — 最新论文</a>
+    <a href="https://huggingface.co/blog" target="_blank" style="font-size:12px; color:var(--color-text-info); text-decoration:none; display:flex; align-items:center; gap:4px;"><i class="ti ti-external-link" style="font-size:11px"></i> HuggingFace Blog</a>
+    <a href="https://twitter.com/i/lists/1484161218701643777" target="_blank" style="font-size:12px; color:var(--color-text-info); text-decoration:none; display:flex; align-items:center; gap:4px;"><i class="ti ti-external-link" style="font-size:11px"></i> Twitter/X AI 工程师圈子</a>
+    <a href="https://discord.gg/langchain" target="_blank" style="font-size:12px; color:var(--color-text-info); text-decoration:none; display:flex; align-items:center; gap:4px;"><i class="ti ti-external-link" style="font-size:11px"></i> LangChain Discord 社区</a>
+  </div>
+</div>
