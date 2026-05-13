@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端八股/Redis.md",
+                "file": "LeetCode/二叉树/98. 验证二叉搜索树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "98. 验证二叉搜索树"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 308.5
   },
   "right": {
     "id": "ee3cc914ca3b8e9c",
@@ -187,8 +187,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2687f242bcdce0dd",
+  "active": "3187a4245986c64a",
   "lastOpenFiles": [
+    "LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "LeetCode/二叉树/543. 二叉树的直径.md",
+    "LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "LeetCode/二叉树/98. 验证二叉搜索树.md",
+    "后端八股/Redis.md",
     "算法八股",
     "后端八股/Python.md",
     "后端八股/MySQL.md",
@@ -208,14 +213,10 @@
     "AI Agent/Agent设计.md",
     "AI Agent/AI Agent.md",
     "AI Agent/RAG.md",
-    "LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
     "LeetCode/二叉树/102. 二叉树的层序遍历.md",
     "LeetCode/二叉树/104. 二叉树的最大深度.md",
-    "LeetCode/二叉树/543. 二叉树的直径.md",
     "LeetCode/二叉树/226. 翻转二叉树.md",
     "LeetCode/二叉树/101. 对称二叉树.md",
-    "数据结构/算法 & 数据结构.md",
-    "数据结构/红黑树.md",
     "AI Agent/img/Pasted image 20260512173323.png",
     "ai_agent_study_plan.html",
     "AI Agent/img/截屏2026-05-08 17.36.44.png",
@@ -229,7 +230,6 @@
     "申研/CV/~$feiLIU-CV(word).docx",
     "申研/CV/~$feiLIU-CV.docx",
     "申研/CV/RufeiLIU-CV(word).docx",
-    "申研/CV/RufeiLIU-CV.pdf",
     "申研/证件/成绩单图片/Page_1_docsmall.com.jpg",
     "申研/证件/成绩单图片/Page_2_docsmall.com.jpg",
     "申研/证件/身份证反面.jpg",
